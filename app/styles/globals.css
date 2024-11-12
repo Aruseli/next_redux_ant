@@ -3,7 +3,8 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: var(--font-lato);
+  color: #1F2432;
 }
 
 a {
@@ -13,4 +14,125 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.flex_style {
+  width: 100%;
+}
+header {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+nav {
+  width: 100%;
+  padding-left: 80px;;
+}
+button {
+  width: 100%;
+  height: 100%;
+}
+.ant-btn-lg {
+  border-radius: 4px !important;
+}
+.ant-btn-variant-link {
+  color: #797B86 !important;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.ant-space-vertical {
+  width: 100%;
+}
+.flex_staff {
+  padding: 26px 25px;
+}
+.ant-row {
+  width: 100%;
+}
+.text-12 {
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+}
+.text-18 {
+  font-size: 18px !important;
+}
+.text-24 {
+  font-size: 24px !important;
+}
+.text-32 {
+  font-size: 32px !important;
+}
+
+.w-full {
+  width: 100%;
+}
+.w-auto {
+  width: auto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  /* position: absolute;
+  top: 10px; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  right: 50px;
+  background-color: #797B86;
+}
+
+.swiper-button-next {
+  right: 10px;
+  transform: rotate(180deg);
+  background-color: #797B86;
+
+}
+
+.pa-25 {
+  padding: 25px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.close-button {
+  position: absolute !important;
+  top: 1rem;
+  right: 0;
+}
+.flex-grow {
+  flex-grow: 1;
 }
